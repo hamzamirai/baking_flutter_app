@@ -28,10 +28,6 @@ void main() async {
     home: new Home(recipe),
   ));
 
-  /**
-   *
-   *
-   */
 }
 
 Future<List> getRecipes() async {
