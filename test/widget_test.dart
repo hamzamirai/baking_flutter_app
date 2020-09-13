@@ -12,6 +12,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:baking_app_flutter/main.dart';
 
 void main() {
+  // Test
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(Home([]));

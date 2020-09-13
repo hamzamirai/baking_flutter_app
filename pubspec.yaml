@@ -53,10 +53,10 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   assets:
-    - assets/brownies.jpg
-    - assets/cheesecake.jpg
-    - assets/nutella_pie.jpg
-    - assets/yellow_cake.jpg
+    - assets/images/brownies.jpg
+    - assets/images/cheesecake.jpg
+    - assets/images/nutella_pie.jpg
+    - assets/images/yellow_cake.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
