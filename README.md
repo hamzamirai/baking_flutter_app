@@ -7,10 +7,10 @@ Developed By DevHcH
 
 This project is a starting point for a Flutter application.
 
-![](screenshots/0.png)
-![](screenshots/1.png)
-![](screenshots/2.png)
-![](screenshots/3.png)
+![](screenshots/0.png) ![](screenshots/1.png)
+
+![](screenshots/2.png) ![](screenshots/3.png)
+
 ![](screenshots/4.png)
 ![](screenshots/5.png)
 ![](screenshots/6.png)
