@@ -72,8 +72,8 @@ class Constant {
 
   static const int KEY_BUTTON_CAROUSEL_CONTROLLER_MILLISECONDS = 300;
 
-  static const String KEY_OUTLINE_BUTTON_NEXT = '>>';
-  static const String KEY_OUTLINE_BUTTON_PREVIOUS = '<<';
+  static const String KEY_OUTLINE_BUTTON_NEXT = '>>>';
+  static const String KEY_OUTLINE_BUTTON_PREVIOUS = '<<<';
 
   static const double KEY_CAROUSEL_BOX_DECORATION_INDECATOR_WIDTH = 10.0;
   static const double KEY_CAROUSEL_BOX_DECORATION_INDECATOR_HEIGHT = 10.0;
