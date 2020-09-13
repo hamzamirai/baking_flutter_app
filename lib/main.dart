@@ -28,10 +28,6 @@ void main() async {
     home: new Home(recipe),
   ));
 
-  /**
-   *
-   *
-   */
 }
 
 Future<List> getRecipes() async {
@@ -41,12 +37,3 @@ Future<List> getRecipes() async {
   return jsonData;
 }
 
-Future<Recipe> getPost() async {
-  var api = Constant.KEY_API;
-  var response = await http.get(api);
-
-  if (response.statusCode == 200) {
-    var body = json.decode(response.body);
-    return Recipe.fromJson(body);
-  }
-}

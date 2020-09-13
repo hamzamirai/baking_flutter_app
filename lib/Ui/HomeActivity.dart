@@ -1,8 +1,8 @@
-import 'file:///E:/0_Programing_Project/Flutter/baking_app_flutter/lib/Ui/RecipeDetailsActivity.dart';
 import 'package:baking_app_flutter/Utils/Constant.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'RecipeDetailsActivity.dart';
 
 // ignore: slash_for_doc_comments
 /**
