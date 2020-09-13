@@ -19,10 +19,10 @@ class Constant {
   static const Color KEY_DARK_BLUE_COLOR = Color(0xFF1b1e44);
 
   static const List KEY_RECIPE_IMAGES = [
-    'assets/nutella_pie.jpg',
-    'assets/brownies.jpg',
-    'assets/yellow_cake.jpg',
-    'assets/cheesecake.jpg'
+    'assets/images/nutella_pie.jpg',
+    'assets/images/brownies.jpg',
+    'assets/images/yellow_cake.jpg',
+    'assets/images/cheesecake.jpg'
   ];
 
   static const double KEY_TEXT_SIZE = 18.0;
