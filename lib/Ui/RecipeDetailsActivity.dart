@@ -1,10 +1,8 @@
-import 'package:baking_app_flutter/Models/Ingredient.dart';
 import 'file:///E:/0_Programing_Project/Flutter/baking_app_flutter/lib/Ui/StepDetailsActivity.dart';
 import 'package:baking_app_flutter/Utils/Constant.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:toast/toast.dart';
 
 // ignore: slash_for_doc_comments
 /**
@@ -175,9 +173,9 @@ class _RecipeDetailsActivityState extends State<RecipeDetailsActivity> {
                     children: map<Widget>(widget.mIngredients, (index, url) {
                       return new Container(
                         width: Constant
-                            .KEY_CAROUSEL_BOX_DECORATION_INDECATOR_WIDTH,
+                            .KEY_CAROUSEL_BOX_DECORATION_INDICATOR_WIDTH,
                         height: Constant
-                            .KEY_CAROUSEL_BOX_DECORATION_INDECATOR_HEIGHT,
+                            .KEY_CAROUSEL_BOX_DECORATION_INDICATOR_HEIGHT,
                         margin: EdgeInsets.symmetric(
                             vertical: Constant.KEY_MARGIN_TEN,
                             horizontal: Constant.KEY_MARGIN_TWO),

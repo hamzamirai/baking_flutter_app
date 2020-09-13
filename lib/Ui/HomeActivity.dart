@@ -1,4 +1,3 @@
-import 'package:baking_app_flutter/Models/Recipe.dart';
 import 'file:///E:/0_Programing_Project/Flutter/baking_app_flutter/lib/Ui/RecipeDetailsActivity.dart';
 import 'package:baking_app_flutter/Utils/Constant.dart';
 import 'package:carousel_slider/carousel_slider.dart';
@@ -36,6 +35,7 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
+
     return new Container(
       decoration: BoxDecoration(
           gradient: LinearGradient(
@@ -59,6 +59,7 @@ class _HomeState extends State<Home> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   new Container(
+                      height: Constant.KEY_WELCOME_TEXT_HEIGHT,
                       margin: EdgeInsets.fromLTRB(
                           Constant.KEY_MARGIN_EIGHT,
                           Constant.KEY_MARGIN_EIGHT,
@@ -71,6 +72,7 @@ class _HomeState extends State<Home> {
                             color: Colors.white),
                       )),
                   new Container(
+                      height: Constant.KEY_WELCOME_TEXT_HEIGHT,
                       margin: EdgeInsets.fromLTRB(
                           Constant.KEY_MARGIN_EIGHT,
                           Constant.KEY_MARGIN_ZERO,
@@ -166,7 +168,7 @@ class _HomeState extends State<Home> {
                           );
                         }).toList(),
                         options: CarouselOptions(
-                            height: Constant.KEY_CAROUSEL_HEIGHT_FOURHANDRED,
+                            height:  MediaQuery.of(context).size.height - 250,
                             initialPage:
                                 Constant.KEY_CAROUSEL_INITIAL_PAGE_ZERO,
                             scrollDirection: Axis.horizontal,
@@ -197,10 +199,13 @@ class _HomeState extends State<Home> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: map<Widget>(widget.mRecipes, (index, url) {
                       return new Container(
-                        width: Constant.KEY_CAROUSEL_BOX_DECORATION_INDECATOR_WIDTH,
-                        height: Constant.KEY_CAROUSEL_BOX_DECORATION_INDECATOR_HEIGHT,
+                        width: Constant
+                            .KEY_CAROUSEL_BOX_DECORATION_INDICATOR_WIDTH,
+                        height: Constant
+                            .KEY_CAROUSEL_BOX_DECORATION_INDICATOR_HEIGHT,
                         margin: EdgeInsets.symmetric(
-                            vertical: Constant.KEY_MARGIN_TEN, horizontal: Constant.KEY_MARGIN_TWO),
+                            vertical: Constant.KEY_MARGIN_TEN,
+                            horizontal: Constant.KEY_MARGIN_TWO),
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           color: _current == index
@@ -216,10 +221,16 @@ class _HomeState extends State<Home> {
           ],
         ),
         bottomNavigationBar: new BottomAppBar(
+          color: Constant.KEY_DARK_BLUE_COLOR,
           child: new Container(
+            margin: EdgeInsets.fromLTRB(
+                Constant.KEY_MARGIN_FOUR,
+                Constant.KEY_MARGIN_ZERO,
+                Constant.KEY_MARGIN_FOUR,
+                Constant.KEY_MARGIN_ZERO),
             height: Constant.KEY_BOTTOM_NAVIGATION_BAR_HEIGHT,
             child: new Row(
-              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 OutlineButton(
                   onPressed: goToPrevious,

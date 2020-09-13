@@ -29,6 +29,7 @@ class Constant {
 
   static const String KEY_WELCOME_TEXT = 'Welcome!';
   static const double KEY_WELCOME_TEXT_SIZE = 22.0;
+  static const double KEY_WELCOME_TEXT_HEIGHT = 30.0;
 
   static const String KEY_WELCOME_DESCRIPTION_TEXT = 'What would you like to bake today?';
   static const double KEY_WELCOME_DESCRIPTION_TEXT_SIZE = 20.0;
@@ -65,7 +66,7 @@ class Constant {
   static const String KEY_RECIPE_STEPS_VIDEO_URL = 'videoURL';
   static const String KEY_RECIPE_STEPS_THUMBNAIL_URL = 'thumbnailURL';
 
-  static const double KEY_CAROUSEL_HEIGHT_FOURHANDRED = 400.0;
+  static const double KEY_CAROUSEL_HEIGHT_FOUR_HUNDRED = 400.0;
   static const double KEY_CAROUSEL_INGREDIENT_HEIGHT = 150.0;
 
   static const int KEY_CAROUSEL_INITIAL_PAGE_ZERO = 0;
@@ -75,8 +76,8 @@ class Constant {
   static const String KEY_OUTLINE_BUTTON_NEXT = '>>';
   static const String KEY_OUTLINE_BUTTON_PREVIOUS = '<<';
 
-  static const double KEY_CAROUSEL_BOX_DECORATION_INDECATOR_WIDTH = 10.0;
-  static const double KEY_CAROUSEL_BOX_DECORATION_INDECATOR_HEIGHT = 10.0;
+  static const double KEY_CAROUSEL_BOX_DECORATION_INDICATOR_WIDTH = 10.0;
+  static const double KEY_CAROUSEL_BOX_DECORATION_INDICATOR_HEIGHT = 10.0;
 
   static const double KEY_CONTAINER_STEPS_HEIGHT = 380.0;
 
