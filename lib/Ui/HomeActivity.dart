@@ -216,6 +216,7 @@ class _HomeState extends State<Home> {
           ],
         ),
         bottomNavigationBar: new BottomAppBar(
+          color: Constant.KEY_BLUE_COLOR,
           child: new Container(
             height: Constant.KEY_BOTTOM_NAVIGATION_BAR_HEIGHT,
             child: new Row(
